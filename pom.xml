@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>jjad.springframework</groupId>
-	<artifactId>section-7-recipe-project</artifactId>
+	<artifactId>spring-mysql-recipe-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>section-7-recipe-project</name>
 	<description>Recipes project</description>

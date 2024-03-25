@@ -66,8 +66,3 @@ workflows:
     # Inside the workflow, you define the jobs you want to run.
     jobs:
       - build
-
-  upload-to-codecov:
-    jobs:
-      - checkout
-      - codecov/upload

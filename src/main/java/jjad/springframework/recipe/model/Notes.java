@@ -15,5 +15,6 @@ public class Notes {
     @OneToOne
     private Recipe recipe;
     @Lob
+    @Column(columnDefinition = "LONGTEXT")
     private String recipeNotes;
 }

@@ -20,6 +20,7 @@ public class Recipe {
     private String source;
     private String url;
     @Lob
+    @Column(columnDefinition = "LONGTEXT")
     private String directions;
     @Lob
     private Byte[] image;

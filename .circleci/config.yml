@@ -50,7 +50,7 @@ jobs:
 
       # Use mvn clean and package as the standard maven build phase
       # run tests! and gen code coverage
-      - run: mvn test
+      - run: mvn test -Dspring.profiles.active=default
 
       - store_test_results:
           path: target/surefire-reports
